@@ -1,0 +1,12 @@
+double numero;
+Console.WriteLine("Digite um número:");
+numero = double.Parse(Console.ReadLine());
+
+if (numero > 100)
+{
+  numero = numero + 150;
+}
+
+Console.WriteLine(" O valor de número é " + numero);
+
+Console.ReadKey();
